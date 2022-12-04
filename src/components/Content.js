@@ -10,7 +10,7 @@ export default function Content(props) {
         <div onClick={cardLink} className="card">
             <img src={require(`../images/${props.item.coverImg}`)} className="card-image"/>
             <div className="card-info">
-                <h2>{props.item.title}</h2>
+                <h2 className="title-card">{props.item.title}</h2>
             </div>
         </div>
 
