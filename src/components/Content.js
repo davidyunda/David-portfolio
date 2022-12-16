@@ -13,7 +13,6 @@ export default function Content(props) {
                 <h2 className="title-card">{props.item.title}</h2>
             </div>
         </div>
-
-
+        
     )
 }

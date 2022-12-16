@@ -9,6 +9,7 @@ import Footer from './components/Footer'
 import data from './data';
 
 function App() {
+
   const cards = data.map(item => {
     return (
       <Content 
@@ -17,16 +18,29 @@ function App() {
       />
     )
   })
+
+  const skills = ['CSS', 'HTML', 'JavaScript', 'UI Design', 'Django', 'React', 'Python', 'Github']
+  const listItems = skills.map((number) =>
+    <li className='box-skill'>{number}</li>
+  )
+
   return (
     <div className="App">
       <header className="App-header">
         <Header />
       </header>
       <main className="App-main">
-        <h2>Static Websites:</h2>
-        <section className="cards-list">
-          {cards}
-        </section>
+        <div className='container-cards'>
+          <h2>Static Websites:</h2>
+          <p>Programing languages used: HTML, CSS, JavaScript, Vue, React</p>
+          <section className="cards-list">
+            {cards}
+          </section>
+        </div>
+        <div className='container-skills'>
+          <h2>Skills:</h2>
+          {listItems}
+        </div>
       </main>
       <footer className="App-footer">
         <Footer />
