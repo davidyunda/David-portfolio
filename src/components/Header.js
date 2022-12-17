@@ -9,7 +9,7 @@ export default function Header() {
             <Navbar bg="light" expand="lg">
                 <Container>
                     <Navbar.Brand href="#home">David Yunda</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    {/* <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Container >
                         <Nav className="justify-content-end">
@@ -19,7 +19,7 @@ export default function Header() {
                             <Nav.Link href="#link">Contact us</Nav.Link>
                         </Nav>
                     </Container>
-                    </Navbar.Collapse>
+                    </Navbar.Collapse> */}
                 </Container>
             </Navbar>
             

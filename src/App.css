@@ -41,6 +41,7 @@ main {
   flex-wrap: nowrap;
   gap: 20px;
   overflow-x: auto;
+  /* font-size: 16px; */
   /* background-color: white; */
 }
 
@@ -58,7 +59,7 @@ main {
 }
 
 .title-card {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 2000;
   text-align: left;
 
@@ -92,7 +93,11 @@ section {
   background-color: rgb(255, 255, 255);
   display: inline-block;
   text-align: center;
-  margin: 5px;
-  width: 100px;
+  margin: 6px;
+  width: 110px;
   border-radius: 6px;
+  font-size: 17px;
+  padding: 8px;
 }
+
+

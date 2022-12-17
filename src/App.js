@@ -32,14 +32,18 @@ function App() {
       <main className="App-main">
         <div className='container-cards'>
           <h2>Static Websites:</h2>
-          <p>Programing languages used: HTML, CSS, JavaScript, Vue, React</p>
+          <p>Programing languages used:</p>
+          <p>HTML, CSS, JavaScript, Vue, React</p>
           <section className="cards-list">
             {cards}
           </section>
         </div>
         <div className='container-skills'>
           <h2>Skills:</h2>
-          {listItems}
+          <section className='skill-list'>
+            {listItems}
+          </section>
+          
         </div>
       </main>
       <footer className="App-footer">
