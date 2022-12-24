@@ -30,20 +30,33 @@ function App() {
         <Header />
       </header>
       <main className="App-main">
-        <div className='container-cards'>
-          <h2>Static Websites:</h2>
-          <p>Programing languages used:</p>
-          <p>HTML, CSS, JavaScript, Vue, React</p>
-          <section className="cards-list">
-            {cards}
-          </section>
+
+        <div className='section'>
+          <div className='container'>
+            <div className='intro-wrap'>
+              <div className='name-text'>David Yunda</div>
+              <div className='paragraph-light'>Web developer</div>
+              <h1 className='heading-jumbo'>Hey there, I'm a creative  graphic and web designer with some experience in programming.</h1>
+            </div>
+          </div>
         </div>
-        <div className='container-skills'>
-          <h2>Skills:</h2>
-          <section className='skill-list'>
-            {listItems}
-          </section>
-          
+        <div className='section'>
+          <div className='container-cards'>
+            <h2>Static Websites:</h2>
+            <p>Programing languages used:</p>
+            <p>HTML, CSS, JavaScript, Vue, React</p>
+            <section className="cards-list">
+              {cards}
+            </section>
+          </div>
+        </div>
+        <div className='section'>
+          <div className='container-skills'>
+            <h2>Skills:</h2>
+            <section className='skill-list'>
+              {listItems}
+            </section>
+          </div>
         </div>
       </main>
       <footer className="App-footer">
