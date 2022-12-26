@@ -25,7 +25,7 @@ main {
 }
 
 .container-skills {
-  background-color: rgb(236, 242, 250);
+  /* background-color: rgb(236, 242, 250); */
   margin-top: 45px;
   border-radius: 6px;
   padding: 4px;
@@ -111,19 +111,34 @@ main {
   line-height: 50px;
   font-weight: 400;
   text-transform: none;
-  color: rgb(73, 73, 242);
+  color: rgb(84, 84, 248);
 }
 
-/* footer {
-  background-color: rgb(99, 97, 97);
+.footer-wrap {
+  /* background-color: rgb(99, 97, 97);
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 150px;
-} */
+  height: 150px; */
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  /* padding: 6px; */
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
 
 .box-skill {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(221, 221, 249);
   display: inline-block;
   text-align: center;
   margin: 6px;
@@ -153,6 +168,28 @@ main {
   }
 
   .skill-list {
-    margin-left: 40px;
+    margin-left: 35px;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    justify-self: center;
+    
+    /* display: flex;
+    flex-direction: column;
+    flex-basis: auto;  */
   }
+
+  /* .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+  } */
 }

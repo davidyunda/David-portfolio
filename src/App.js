@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+  import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -58,10 +58,14 @@ function App() {
             </section>
           </div>
         </div>
+        <div className='section'>
+          <footer className="App-footer">
+
+            <Footer />
+          </footer>
+        </div>
       </main>
-      <footer className="App-footer">
-        <Footer />
-      </footer>
+     
     </div>
   );
 }
